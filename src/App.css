@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.font-poppins {
+  font-family: "Poppins", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font-Libre {
+  font-family: "Libre Caslon Text", serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root {
+  /* font-size */
+  --fs-xs: 16px;
+  --fs-sm: 20px;
+  --fs-md: 22px;
+  --fs-lg: 24px;
+  --fs-xl: 36px;
+  --fs-2xl: 40px;
+  /* line-height */
+  --lh-xs: 16px;
+  --lh-sm: 20px;
+  --lh-md: 23.5px;
+  --lh-lg: 24px;
+  --lh-xl: 25.6px;
+  --lh-2xl: 38.4px;
+  --lh-3xl: 42.7px;
+  --lh-4xl: 47px;
+  --lh-5xl: 49.5px;
+  /* colors */
+  --bs-white:#FFFFFF;
+  --bs-green:#88C701;
+  --bs-whitegreen:#F0F8EC;
+  --bs-baseblack:#222222;
+  --bs-cardborder:#DEEDD6;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fs-16{
+  font-size: var(--fs-xs);
 }
-
-.App-link {
-  color: #61dafb;
+.fs-20{
+  font-size: var(--fs-sm);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fs-22{
+  font-size: var(--fs-md);
+}
+.fs-24{
+  font-size: var(--fs-lg);
+}
+.fs-36{
+  font-size: var(--fs-xl);
+}
+.fs-40{
+  font-size: var(--fs-2xl);
+}
+.lh-16{
+  line-height: var(--lh-xs);
+}
+.lh-20{
+  line-height: var(--lh-sm);
+}
+.lh-23{
+  line-height: var(--lh-md);
+}
+.lh-24{
+  line-height: var(--lh-lg);
+}
+.lh-25{
+  line-height: var(--fs-xl);
+}
+.lh-38{
+  line-height: var(--lh-2xl);
+}
+.lh-42{
+  line-height: var(--lh-3xl);
+}
+.lh-47{
+  line-height: var(--lh-4xl);
+}
+.lh-49{
+  line-height: var(--lh-5xl);
 }
